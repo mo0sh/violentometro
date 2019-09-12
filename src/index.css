@@ -1,13 +1,201 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+=======
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+>>>>>>> parent of 07af49a... Updates
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+=======
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(255,236,245,1);
+  font-size: 17px;
+}
+
+
+.container {
+  position: relative;
+  width: 90vw;
+  max-width: 800px;
+  /* background: rgba(236,29,105,0.7); */
+  /* border-radius: 15px; */
+  margin: 10vh auto;
+  text-align: center;
+  color:rgba(236,29,105,1);
+}
+
+
+/* Result Component */
+.result {
+  padding: 2rem;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+@media (min-width: 769px) {
+  .result {
+    padding: 5rem;
+  }
+  .container {
+    margin: 20vh auto;
+  }
+}
+
+.red {
+  color: white;
+  background-color: rgba(224,4,4,1);
+}
+.red a {
+  color: white;
+}
+
+.yellow {
+  color: rgba(40,39,1,1);
+  background-color: rgba(248,240,58,1);
+}
+
+.orange {
+  color: rgba(88,52,5,1);
+  background-color: rgba(229,153,15,1);
+}
+
+.green {
+  color: rgba(35,74,3,1);
+  background-color: rgba(87,224,4,1);
+}
+
+/* Quiz Component */
+.answerOptions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* QuestionCount Component */
+.questionCount {
+  padding: 1.5rem 2.5rem 0;
+  font-size: 13px;
+}
+
+/* Question Component */
+.question {
+  margin: 0;
+  padding: 1rem 2.5rem 1.5rem 2.5rem;
+  font-family: 'Manjari', sans-serif;
+  font-size: 2.2rem;
+}
+
+/* AnswerOption Component */
+.answerOption {
+  /* border-top: 1px solid #eee; */
+  text-align: left;
+  font-weight: bolder;
+}
+
+.answerOption:hover {
+  color: rgba(236,29,105,1);
+}
+
+.radioCustomButton {
+  position: absolute;
+  width: auto;
+  opacity: 0;
+}
+
+.radioCustomButton,
+.radioCustomLabel {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radioCustomLabel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem 2.5rem 1.5rem 5rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.radioCustomButton ~ .radioCustomLabel:before {
+  position: absolute;
+  top: 24px;
+  left: 38px;
+  width: 28px;
+  height: 28px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: rgba(255,255,255,1);
+  border: 1px solid rgba(236,29,105,1);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.radioCustomButton:checked ~ .radioCustomLabel:before {
+  content: '';
+  background: #8bc53f url(./svg/icon-check.svg) no-repeat;
+  background-size: 27px;
+  border-color: #8bc53f;
+}
+
+/* Animation */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
+
+.fade-leave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+>>>>>>> parent of 07af49a... Updates
 }

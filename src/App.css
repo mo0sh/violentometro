@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -24,10 +25,33 @@
 }
 
 @keyframes App-logo-spin {
+=======
+/* .App-logo {
+  animation: spin infinite 20s linear;
+  height: 80px;
+} */
+
+.App-header {
+  background-color: rgba(202,13,102,1);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+/* 
+@keyframes spin {
+>>>>>>> parent of 07af49a... Updates
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+<<<<<<< HEAD
 }
+=======
+} */
+>>>>>>> parent of 07af49a... Updates
