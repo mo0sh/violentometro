@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82df2f05146f93b1d8952b3e305c0e80",
+    "revision": "2b67fe1f20d6ac2a2eb50dddb98df9c8",
     "url": "/violentometro/index.html"
   },
   {
-    "revision": "1a980744ec992d6c4060",
-    "url": "/violentometro/static/css/main.5e026243.chunk.css"
+    "revision": "2a210ee59358ba2ff104",
+    "url": "/violentometro/static/css/main.832ee590.chunk.css"
   },
   {
     "revision": "3923096a40c2c9939c86",
     "url": "/violentometro/static/js/2.0ece2bba.chunk.js"
   },
   {
-    "revision": "1a980744ec992d6c4060",
-    "url": "/violentometro/static/js/main.c7207bc3.chunk.js"
+    "revision": "2a210ee59358ba2ff104",
+    "url": "/violentometro/static/js/main.a9b648f2.chunk.js"
   },
   {
     "revision": "0fcad22b55b7ec70e3e5",
