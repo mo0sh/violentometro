@@ -76,8 +76,9 @@ function Result(props) {
       >
         <div>
           <img className="final-img" src={green}></img>
-          <h1>MUY BIEN</h1>
+          <h1>En General, todo parece estar bien.</h1>
           <h3>La base de toda relación es el respeto y la confianza.</h3>
+          <a href="https://www.who.int/es/news-room/fact-sheets/detail/violence-against-women" target="_blank">Informate más</a>
         </div>
       </CSSTransitionGroup>
   );

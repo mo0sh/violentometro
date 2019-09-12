@@ -1,33 +1,10 @@
-<<<<<<< HEAD
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-=======
 import React, { Component } from 'react';
 import quizQuestions from './api/quizQuestions2';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './App.css';
+import logo from './images/home.png';
+import devf from './images/devf-white.png';
 
 class App extends Component {
   constructor(props) {
@@ -117,6 +94,10 @@ class App extends Component {
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
     const getResultWord = answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
     const test = answersCountKeys.includes("red");
+    console.log(answersCount);
+    console.log(answersCountKeys);
+    console.log(answersCountValues);
+    console.log(maxAnswerCount);
     if (test === true) {
       return ["red"];
     }
@@ -157,12 +138,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="Violentómetro"/>
+        </header>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
-        <button className="Again" onClick={this.resetApp}> Otra vez</button>
+        <span className="Again" onClick={this.resetApp}> Otra vez</span>
+        <div className="devf">
+          <p>Proyecto de aprendizaje por:</p>
+          <img src={devf}  alt="Violentómetro"/>
+        </div>
       </div>
     );
   }
->>>>>>> parent of 07af49a... Updates
 }
 
 export default App;

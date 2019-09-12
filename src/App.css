@@ -1,35 +1,22 @@
-<<<<<<< HEAD
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  animation: spin infinite 2s ease;
+  height: auto;
+  max-height: 280px;
+}
+.devf {
+  margin-top:50px;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(202,13,102,1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.devf img {
+  width: 60%;
+  margin: 0 auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-=======
-/* .App-logo {
-  animation: spin infinite 20s linear;
-  height: 80px;
-} */
 
 .App-header {
   background-color: rgba(202,13,102,1);
@@ -41,17 +28,15 @@
 .App-intro {
   font-size: large;
 }
-/* 
+
 @keyframes spin {
->>>>>>> parent of 07af49a... Updates
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: rotate(1deg);
   }
-<<<<<<< HEAD
+  100% {
+    transform: rotate(0deg);
+  }
 }
-=======
-} */
->>>>>>> parent of 07af49a... Updates

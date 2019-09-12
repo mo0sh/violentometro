@@ -50,159 +50,159 @@ var quizQuestions = [
             }
         ]
     },
-    // {
-    //     question: "¿Te ignora frecuentemente?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No"
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "A veces"
-    //         },
-    //         {
-    //             type: "red",
-    //             content: "Siempre"
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Te ha hecho comentarios de celos?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No, nos tenemos confianza."
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "A veces desconfia de mi."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Todo el tiempo."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Te provoca sentimiento de culpa frecuentemente?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No"
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "A veces"
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Siempre"
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Ha descalificado tus actos?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No."
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "En una ocasión."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Más de una ocasión."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Te ha ridiculizado u ofendido frente a otras personas?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No, nunca."
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "En una ocasión."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Todo el tiempo."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Te ha humillado en público?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No"
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "Una ocasión."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Varias veces."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Te ha amenazado o intimidado?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No"
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "Una ocasión"
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Varias ocasiones."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Trata de controlarte o prohibirte cosas como; amistades, familiares, dinero, lugares, vestimenta, apariencia, actividades, mails, celular, etc.",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No."
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "Algunas cosas."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Si, todo."
-    //         }
-    //     ]
-    // },
-    // {
-    //     question: "¿Ha destruido artículos personales de tu propiedad?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No"
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "En alguna ocasión."
-    //         },
-    //         {
-    //             type: "orange",
-    //             content: "Bastantes veces."
-    //         }
-    //     ]
-    // },
+    {
+        question: "¿Te ignora frecuentemente?",
+        answers: [
+            {
+                type: "green",
+                content: "No"
+            },
+            {
+                type: "yellow",
+                content: "A veces"
+            },
+            {
+                type: "red",
+                content: "Siempre"
+            }
+        ]
+    },
+    {
+        question: "¿Te ha hecho comentarios de celos?",
+        answers: [
+            {
+                type: "green",
+                content: "No, nos tenemos confianza."
+            },
+            {
+                type: "yellow",
+                content: "A veces desconfia de mi."
+            },
+            {
+                type: "orange",
+                content: "Todo el tiempo."
+            }
+        ]
+    },
+    {
+        question: "¿Te provoca sentimiento de culpa frecuentemente?",
+        answers: [
+            {
+                type: "green",
+                content: "No"
+            },
+            {
+                type: "yellow",
+                content: "A veces"
+            },
+            {
+                type: "orange",
+                content: "Siempre"
+            }
+        ]
+    },
+    {
+        question: "¿Ha descalificado tus actos?",
+        answers: [
+            {
+                type: "green",
+                content: "No."
+            },
+            {
+                type: "yellow",
+                content: "En una ocasión."
+            },
+            {
+                type: "orange",
+                content: "Más de una ocasión."
+            }
+        ]
+    },
+    {
+        question: "¿Te ha ridiculizado u ofendido frente a otras personas?",
+        answers: [
+            {
+                type: "green",
+                content: "No, nunca."
+            },
+            {
+                type: "yellow",
+                content: "En una ocasión."
+            },
+            {
+                type: "orange",
+                content: "Todo el tiempo."
+            }
+        ]
+    },
+    {
+        question: "¿Te ha humillado en público?",
+        answers: [
+            {
+                type: "green",
+                content: "No"
+            },
+            {
+                type: "yellow",
+                content: "Una ocasión."
+            },
+            {
+                type: "orange",
+                content: "Varias veces."
+            }
+        ]
+    },
+    {
+        question: "¿Te ha amenazado o intimidado?",
+        answers: [
+            {
+                type: "green",
+                content: "No"
+            },
+            {
+                type: "yellow",
+                content: "Una ocasión"
+            },
+            {
+                type: "orange",
+                content: "Varias ocasiones."
+            }
+        ]
+    },
+    {
+        question: "¿Trata de controlarte o prohibirte cosas como; amistades, familiares, dinero, lugares, vestimenta, apariencia, actividades, mails, celular, etc.",
+        answers: [
+            {
+                type: "green",
+                content: "No."
+            },
+            {
+                type: "yellow",
+                content: "Algunas cosas."
+            },
+            {
+                type: "orange",
+                content: "Si, todo."
+            }
+        ]
+    },
+    {
+        question: "¿Ha destruido artículos personales de tu propiedad?",
+        answers: [
+            {
+                type: "green",
+                content: "No"
+            },
+            {
+                type: "yellow",
+                content: "En alguna ocasión."
+            },
+            {
+                type: "orange",
+                content: "Bastantes veces."
+            }
+        ]
+    },
     // {
     //     question: "¿Te manosea sin tu consentimiento?",
     //     answers: [
@@ -390,23 +390,23 @@ var quizQuestions = [
     //         }
     //     ]
     // },
-    // {
-    //     question: "¿Ha abusado sexualmente de ti?",
-    //     answers: [
-    //         {
-    //             type: "green",
-    //             content: "No."
-    //         },
-    //         {
-    //             type: "yellow",
-    //             content: "Tal vés."
-    //         },
-    //         {
-    //             type: "red",
-    //             content: "Si."
-    //         }
-    //     ]
-    // },
+    {
+        question: "¿Ha abusado sexualmente de ti?",
+        answers: [
+            {
+                type: "green",
+                content: "No."
+            },
+            {
+                type: "yellow",
+                content: "Tal vés."
+            },
+            {
+                type: "red",
+                content: "Si."
+            }
+        ]
+    },
     {
         question: "¿Ha tenido relaciones sexuales contigo sin tu consentimiento?",
         answers: [

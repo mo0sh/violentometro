@@ -2,18 +2,6 @@
   "name": "react-violentometro",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https://mo0sh.github.io/violentometro/",
-  "dependencies": {
-    "gh-pages": "^2.1.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-=======
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -21,7 +9,6 @@
     "react-transition-group": "^1.2.1"
   },
   "scripts": {
->>>>>>> parent of 07af49a... Updates
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,11 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
   },
   "devDependencies": {
     "prop-types": "^15.7.2"
->>>>>>> parent of 07af49a... Updates
   }
 }
