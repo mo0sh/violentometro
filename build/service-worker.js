@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/violentometro/precache-manifest.7432e5e83a1ffbee08dd75be60ff202d.js"
+  "/violentometro/precache-manifest.29a00f58879756934018aa69a8c9d158.js"
 );
 
 self.addEventListener('message', (event) => {

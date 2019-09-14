@@ -56,7 +56,8 @@ body {
 /* Result Component */
 .result {
   padding: 2rem;
-  height: 60vh;
+  height: auto;
+  min-height: 50vh;
   border-radius: 20px;
 }
 

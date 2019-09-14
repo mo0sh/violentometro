@@ -1,8 +1,11 @@
 .App-logo {
   animation: spin infinite 2s ease;
   height: auto;
-  max-height: 280px;
+  width: 100%;
+  max-width: 420px;
 }
+
+
 .devf {
   margin-top:50px;
   width: 150px;

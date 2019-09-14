@@ -142,7 +142,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="Violentómetro"/>
         </header>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
-        <span className="Again" onClick={this.resetApp}> Otra vez</span>
+        {this.state.result ? <span className="Again" onClick={this.resetApp}> Otra vez</span> : <span></span>}
         <div className="devf">
           <p>Proyecto de aprendizaje por:</p>
           <img src={devf}  alt="Violentómetro"/>
